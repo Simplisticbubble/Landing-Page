@@ -1,0 +1,45 @@
+body{
+ background-color: #1f2937;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    display:flex;
+    color:white;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+.rhs{
+    display:flex;
+    align-items: center;
+    gap:16px;
+    font-size: 16px;
+}
+.container-one{
+
+}
+.container-two{
+    background-color: white;
+}
+.container-three{
+    background-color: #E5E7EB;
+}
+.container-four{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.four-cont{
+    background-color: #3882F6;
+    padding:16px;
+    display: flex;
+    margin:32px;
+    align-items: center;
+    align-content: space-around;
+    gap:8px;
+}
