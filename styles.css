@@ -1,12 +1,12 @@
 body{
  background-color: #1f2937;
  font-family:Verdana, Geneva, Tahoma, sans-serif;
- margin-left: 32px;
- margin-right: 32px;
+
 }
 .main{
     display:flex;
     flex-direction:column;
+    flex-wrap: nowrap;
 }
 
 .header{
@@ -22,6 +22,10 @@ body{
     gap:16px;
     font-size: 16px;
 }
+.head-link{
+    color: white;
+    text-decoration: none;
+}
 .container-one{
     display: flex;
     flex:1;
@@ -33,28 +37,78 @@ body{
 
 }
 .ponyo{
-    width: 10%;
+    width: 50%;
     height: auto;
 }
 .container-two{
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-top: 32px;
+    gap: 16px;
+}
+.cat{
+    width: 50%;
+    height: auto;
+}
+.item-container{
+    display:flex;
+    text-align: center;
+    
 }
 .container-three{
     background-color: #E5E7EB;
+    padding:150px;
+    font-size: 36px;
+    font-style: light italic;
+    color: rgb(128, 122, 122);
 }
 .container-four{
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 .four-cont{
+    border-radius:25px;
     background-color: #3882F6;
-    padding:16px;
+    padding-top:16px;
+    padding-bottom: 16px;
+    padding-left: 128px;
+    padding-right: 128px;
     display: flex;
     margin:32px;
     align-items: center;
     align-content: space-around;
-    gap:8px;
+    gap:64px;
+    color: white;
+}
+.head-four{
+    font-weight: bold;
+    font-size: 20px;
+}
+.button-four, .button-one{
+    color:white;
+    background-color: #3882F6;
+    
+    border-radius:5px;
+    padding-top:4px;
+    padding-bottom: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: bold;
+}
+.button-four{
+    border-color: white;
+}
+.footer{
+    display: flex;
+    color:white;
+    justify-content: center;
 }
