@@ -1,5 +1,8 @@
 body{
  background-color: #1f2937;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ margin-left: 32px;
+ margin-right: 32px;
 }
 .main{
     display:flex;
@@ -10,7 +13,8 @@ body{
     display:flex;
     color:white;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding:32px;
 }
 .rhs{
     display:flex;
@@ -19,7 +23,18 @@ body{
     font-size: 16px;
 }
 .container-one{
+    display: flex;
+    flex:1;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding:32px;
+    gap:32px;
 
+}
+.ponyo{
+    width: 10%;
+    height: auto;
 }
 .container-two{
     background-color: white;
